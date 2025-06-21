@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.navbar__s1__title {
+    color: black;
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.navbar__s2 input {
+    border: none;
+
+    width: 100%;
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__s3 p:hover {
+    transform: scale(1.05);
+    color: #a435f0;
+    background-color: #EDE5F9;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.navbar__s3 i:hover {
+    transform: scale(1.05);
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+
+}
+
+.categories p {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.categories p:hover {
+    transform: scale(1.05);
+    border: 1px solid #a435f0;
+    background-color: #EDE5F9;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.welcome {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.welcome-s1 p {
+    text-decoration: underline;
+    color: #A435F0;
+    font-size: 16px;
+    width: 210px;
+}
+
+.welcome-s1 p:hover {
+    transform: scale(1.05);
+    color: #a435f0;
+    background-color: #EDE5F9;
+    padding: 3px;
+    border-radius: 3px;
+
+}
+
+
+.welcome-icon {
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.start-learning-s2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: black solid 0px;
+    flex-basis: 25%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    height: auto;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.start-learning-s2 i {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.start-1 {
+    font-size: smaller;
+}
+
+.start-learning-s1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start-learning {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.start-learning-s2:hover {
+    background-color: gray;
+    color: white;
+    transform: scale(1.05);
+}
+
+.start-learning h1 {
+    padding-left: 10px;
+}
+
+.recommended {
+    margin: 10px;
+}
+
+.recommended-course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.recommended-course__s1 {
+    font-size: small;
+    width: 250px;
+}
+
+.cart del {
+    color: #a435f0;
+
+}
+
+.recommended-course__s1:hover {
+    padding: 2px;
+    transform: scale(1.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #F6F7F9;
+}
+
+
+.top-picks {
+    width: 100%;
+    max-width: 800px;
+    /* or whatever fits your layout */
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top-picks:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #F6F7F9;
+}
+
+
+
+
+
+
+
+.topics {
+    padding: 10px;
+}
+
+.topics__container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+.topics__container p {
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    background-color: white;
+}
+
+.topic-card img {
+    width: 250px;
+}
+
+.popular-topics {
+    margin: 10px;
+    text-align: center;
+}
+
+.topic-card:hover {
+    padding: 2px;
+    transform: scale(1.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #F6F7F9;
+
+}
+
+.topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.topics__container p:hover {
+    border: 1px solid #a435f0;
+    background-color: #EDE5F9;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.footer__two {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
